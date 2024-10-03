@@ -1,0 +1,145 @@
+/* Wrapper for the entire login screen */
+.login-wrapper {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Updated background */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container for the login card */
+  .login-container {
+    width: 100%;
+    max-width: 400px; /* Reduced size */
+    background: #ffffff;
+    border-radius: 16px; /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+    padding: 20px 30px;
+    margin-top: 50px; /* Centered */
+  }
+  
+  /* Header section for welcome text */
+  .left-section {
+    background: #4e73df;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+    padding: 30px 20px;
+  }
+  
+  .left-section h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  .left-section p {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  
+  /* Form section styling */
+  .right-section {
+    padding: 20px;
+  }
+  
+  /* Form styling */
+  .login-form .form-group {
+    margin-bottom: 18px;
+  }
+  
+  .login-form .form-group label {
+    font-weight: 600;
+    color: #4e73df; /* Updated color */
+  }
+  
+  .custom-input {
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 8px; /* Rounded input fields */
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  /* Button styling */
+  .custom-btn {
+    background: #4e73df;
+    border: none;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 8px; /* Rounded button */
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%; /* Full width button */
+    font-size: 16px;
+  }
+  
+  .custom-btn:hover {
+    background: #2e59d9;
+  }
+  
+  /* Checkbox styling */
+  .checkbox-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-checkbox {
+    margin-right: 8px;
+  }
+  
+  .form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Link styling */
+  .forgot-password {
+    color: #4e73df;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .register-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .link-danger {
+    color: #d9534f;
+  }
+  
+  .link-danger:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer styling */
+  .login-footer {
+    background: #4e73df;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0 0 12px 12px;
+  }
+  
+  .footer-text {
+    margin: 0;
+  }
+  
+  .social-links {
+    margin-top: 12px;
+  }
+  
+  .social-icon {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #cccccc;
+  }
+  

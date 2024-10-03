@@ -1,0 +1,78 @@
+/* Home.css */
+body {
+  background-image: url('../assets/home.jpg'); /* Background image for homepage */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7); /* Darker navbar for contrast */
+}
+
+.navbar-brand {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff; /* White text for better visibility */
+  position: absolute;
+  top: 10px;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for centering */
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better visibility */
+  border-radius: 15px; /* Rounded corners */
+  padding: 30px;
+  width: 60%; /* Adjust width for better alignment */
+  text-align: center;
+  margin: 150px auto 0; /* Center horizontally and space out vertically */
+  color: #fff; /* White text color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow for pop-out effect */
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Shadow for text visibility */
+}
+
+p {
+  font-size: 24px;
+  color: #ddd; /* Slightly lighter color for paragraphs */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Styles for the button group */
+.button-group {
+  margin-top: 30px; /* Space between the content and buttons */
+}
+
+/* Job Portal Button Styles */
+.job-portal-button {
+  background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent blue for visibility */
+  color: white; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 25px; /* Rounded corners */
+  padding: 10px 20px; /* Add padding for better size */
+  font-size: 20px; /* Adjust font size */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.job-portal-button:hover {
+  background-color: rgba(0, 123, 255, 1); /* Darker blue on hover */
+}
+
+.button-group .btn {
+  color: #fff;
+  border-color: #fff;
+  margin: 10px; /* Space between buttons */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+  width: 200px; /* Fixed width for buttons */
+}
+
+.button-group .btn:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+}
